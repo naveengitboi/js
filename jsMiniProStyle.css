@@ -129,7 +129,7 @@ img
 /* meadiaaaaaaaaaaaaaaaaaaaaaaaa */
 
 
-@media screen and (min-width:426px) and (max-width:768px){
+@media screen and (min-width:426px) and (max-width:1024px){
     
     body 
     {
@@ -139,6 +139,10 @@ img
     .cardsCollection
     {
         grid-template-columns: repeat(2,1fr);
+    }
+    .attribute
+    {
+        left: 42%;
     }
 
 }
@@ -155,6 +159,10 @@ img
         display: flex;
         flex-direction: column;
     }
+    .card
+    {
+        margin: 2rem 0;
+    }
     .heading
     {
         font-size: 1.75rem;
@@ -162,6 +170,10 @@ img
     .cardInfo h2
     {
         font-size: 1.25rem;
+    }
+    .attribute
+    {
+        left: 30%;
     }
 }
 
@@ -197,3 +209,4 @@ img
         padding: .25rem .85rem ;
     }
 }
+

@@ -9,6 +9,11 @@
     box-sizing: border-box;
 }
 
+html, body 
+{
+    overflow-x: hidden;
+}
+
 body{
     height: 100vh;
     background-color:#b07ad3;
@@ -21,9 +26,7 @@ body{
 
 .container
 {
-    /* background-color: yellow; */
-    width:700px;
-    min-height: 40vh;
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -41,32 +44,31 @@ body{
 .mainContent
 {
     background-color: rgb(0, 255, 115);
-    font-weight: bold;
-    height: 300px;
+    min-height: 300px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 0 .75rem;
-    width: 700px;
     border-radius: .5rem;
 }
 .mainContent .textArea
 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: poppins;
     margin-bottom: 1.8rem;
     line-height: 1.8rem;
     font-size: 1.15rem;
-    font-weight: 500;
+    color: rgb(34, 34, 34);
 }
 
 .person
 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     letter-spacing: 3.25px;
-    margin-bottom: 1.2rem;
+    margin-bottom: 2rem;
     text-transform: uppercase;
     color: blue;
+    font-weight: 600;
 }
 
 
@@ -90,3 +92,6 @@ body{
 {
     background-color: rgb(255, 0, 221);
 }
+
+
+
