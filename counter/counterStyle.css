@@ -1,0 +1,74 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: #16a3a3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+
+.container
+{
+    background-color: wheat;
+    padding: 9rem 4.5rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px #055353;
+    
+
+}
+
+.container h1,h2
+{
+    text-align: center;
+}
+.container h2
+{
+    font-size: 5rem;
+    padding: 1rem;
+}
+
+.buttons 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.buttons button
+{
+    padding: .5rem 1.5rem;
+    margin: 1rem 1rem ;
+    border: none;
+    background-color: rgb(79, 33, 139);
+    color: white;
+    font-size: 1.1rem;
+    border-radius: .25rem;
+    cursor: pointer;
+}
+
+.buttons button:hover
+{
+    background-color:rgb(111, 0, 255) ;
+}
+
+.nextbuttons
+{
+    display: flex;
+}
+
+.increament ,.decreament
+{
+    display: none;
+}
+
+.readMore.increament, .readMore.decreament
+{
+    display: block;
+}
